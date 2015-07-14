@@ -1,0 +1,105 @@
+* Block Type = 96well
+* Chemistry = SYBR_GREEN
+* Experiment File Name = C:\Users\user\Dropbox\MolLab2015\StudentProjects\STGsingleneuron\071315_shal.eds
+* Experiment Run End Time = Not Started
+* Instrument Type = steponeplus
+* Passive Reference = ROX
+
+[Results]
+Well	Sample Name	Target Name	Task	Reporter	Quencher	Cт	Cт Mean	Cт SD	Quantity	Quantity Mean	Quantity SD	Automatic Ct Threshold	Ct Threshold	Automatic Baseline	Baseline Start	Baseline End	Tm1	Tm2	Tm3	Comments	AMPNC	BADROX	HIGHSD	NOISE	OUTLIERRG	EXPFAIL
+A1	m1	shal	UNKNOWN	SYBR	None	31.9511	31.6725	0.3216				false	2.1861	true	3	25	80.9285				N	Y	N	N	N	N
+A2	m1	shal	UNKNOWN	SYBR	None	31.7459	31.6725	0.3216				false	2.1861	true	3	22	80.9285				N	Y	N	N	N	N
+A3	m1	shal	UNKNOWN	SYBR	None	31.3206	31.6725	0.3216				false	2.1861	true	3	24	79.9647				N	Y	N	N	N	N
+A4	m9	shal	UNKNOWN	SYBR	None	31.1646	31.6206	0.3983				false	2.1861	true	3	21	79.9647				N	Y	N	N	N	N
+A5	m9	shal	UNKNOWN	SYBR	None	31.7973	31.6206	0.3983				false	2.1861	true	3	22	80.9833				N	Y	N	N	N	N
+A6	m9	shal	UNKNOWN	SYBR	None	31.9	31.6206	0.3983				false	2.1861	true	3	23	80.9833				N	Y	N	N	N	N
+A7	z1	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	17	61.9981				N	N	N	N	N	N
+A8	z1	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	39	61.9981				N	N	N	N	N	Y
+A9	z1	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	25	62.8953				N	N	N	N	N	N
+A10	z9	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	5	62.8953				N	N	N	N	N	N
+A11	z9	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	23	63.2793				N	N	N	N	N	N
+A12	z9	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	39	62.3161				N	N	N	N	N	Y
+B1	m2	shal	UNKNOWN	SYBR	None	30.197	30.5765	0.3558				false	2.1861	true	3	26	79.9323				N	Y	N	N	N	N
+B2	m2	shal	UNKNOWN	SYBR	None	30.9024	30.5765	0.3558				false	2.1861	true	3	22	79.9323				N	Y	N	N	N	N
+B3	m2	shal	UNKNOWN	SYBR	None	30.6301	30.5765	0.3558				false	2.1861	true	3	23	79.9647				N	Y	N	N	N	N
+B4	m10	shal	UNKNOWN	SYBR	None	34.738	32.8763	1.6277				false	2.1861	true	3	27	79.9647				N	N	Y	N	N	N
+B5	m10	shal	UNKNOWN	SYBR	None	31.7216	32.8763	1.6277				false	2.1861	true	3	22	79.9639				N	Y	Y	N	N	N
+B6	m10	shal	UNKNOWN	SYBR	None	32.1692	32.8763	1.6277				false	2.1861	true	3	23	79.9639				N	N	Y	N	N	N
+B7	z2	shal	UNKNOWN	SYBR	None	Undetermined	32.5128	0.556				false	2.1861	true	3	9	61.9981				N	N	N	N	N	N
+B8	z2	shal	UNKNOWN	SYBR	None	32.9059	32.5128	0.556				false	2.1861	true	3	25	79.943				N	N	Y	N	N	N
+B9	z2	shal	UNKNOWN	SYBR	None	32.1197	32.5128	0.556				false	2.1861	true	3	23	80.8676				N	N	Y	N	N	N
+B10	z10	shal	UNKNOWN	SYBR	None	34.3775	33.2788	1.4826				false	2.1861	true	3	24	80.8676				N	N	Y	N	N	N
+B11	z10	shal	UNKNOWN	SYBR	None	33.8663	33.2788	1.4826				false	2.1861	true	3	24	80.3002				N	N	Y	N	N	N
+B12	z10	shal	UNKNOWN	SYBR	None	31.5925	33.2788	1.4826				false	2.1861	true	3	24	79.2915				N	N	Y	N	N	N
+C1	m3	shal	UNKNOWN	SYBR	None	31.1312	31.7613	1.3184				false	2.1861	true	3	18	79.9323				N	Y	Y	N	N	N
+C2	m3	shal	UNKNOWN	SYBR	None	30.8762	31.7613	1.3184				false	2.1861	true	3	18	79.9323				N	Y	Y	N	N	N
+C3	m3	shal	UNKNOWN	SYBR	None	33.2764	31.7613	1.3184				false	2.1861	true	3	25	79.9647				N	N	Y	N	N	N
+C4	m11	shal	UNKNOWN	SYBR	None	32.3477	32.0271	0.4581				false	2.1861	true	3	24	80.9383				N	Y	N	N	N	N
+C5	m11	shal	UNKNOWN	SYBR	None	31.5025	32.0271	0.4581				false	2.1861	true	3	21	80.9833				N	N	N	N	N	N
+C6	m11	shal	UNKNOWN	SYBR	None	32.231	32.0271	0.4581				false	2.1861	true	3	25	79.9639				N	Y	N	N	N	N
+C7	z3	shal	UNKNOWN	SYBR	None	Undetermined	34.0318	0.2902				false	2.1861	true	3	19	61.9981				N	N	N	N	N	N
+C8	z3	shal	UNKNOWN	SYBR	None	34.237	34.0318	0.2902				false	2.1861	true	3	26	79.943				N	N	N	N	N	N
+C9	z3	shal	UNKNOWN	SYBR	None	33.8266	34.0318	0.2902				false	2.1861	true	3	26	80.8676				N	N	N	N	N	N
+C10	z11	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	19	62.8953				N	N	N	N	N	N
+C11	z11	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	26	63.2793				N	N	N	N	N	N
+C12	z11	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	39	62.3161				N	N	N	N	N	Y
+D1	m4	shal	UNKNOWN	SYBR	None	31.6034	32.408	0.7009				false	2.1861	true	3	22	80.9285				N	Y	Y	N	N	N
+D2	m4	shal	UNKNOWN	SYBR	None	32.8857	32.408	0.7009				false	2.1861	true	3	23	79.9323				N	N	Y	N	N	N
+D3	m4	shal	UNKNOWN	SYBR	None	32.7349	32.408	0.7009				false	2.1861	true	3	21	80.9383				N	Y	Y	N	N	N
+D4	m12	shal	UNKNOWN	SYBR	None	33.9602	32.2909	1.4457				false	2.1861	true	3	25	79.9647				N	N	Y	N	Y	N
+D5	m12	shal	UNKNOWN	SYBR	None	31.4558	32.2909	1.4457				false	2.1861	true	3	24	79.9639				N	Y	Y	N	N	N
+D6	m12	shal	UNKNOWN	SYBR	None	31.4566	32.2909	1.4457				false	2.1861	true	3	23	79.9639				N	Y	Y	N	N	N
+D7	z4	shal	UNKNOWN	SYBR	None	Undetermined	32.8668	0.3324				false	2.1861	true	3	39	61.9981				N	N	N	N	N	Y
+D8	z4	shal	UNKNOWN	SYBR	None	33.1018	32.8668	0.3324				false	2.1861	true	3	26	79.943				N	N	N	N	N	N
+D9	z4	shal	UNKNOWN	SYBR	None	32.6318	32.8668	0.3324				false	2.1861	true	3	26	80.8676				N	N	N	N	N	N
+D10	z12	shal	UNKNOWN	SYBR	None	Undetermined	39.0464					false	2.1861	true	3	39	62.8953				N	N	N	N	N	Y
+D11	z12	shal	UNKNOWN	SYBR	None	39.0464	39.0464					false	2.1861	true	3	31	80.3002				N	N	N	N	N	N
+D12	z12	shal	UNKNOWN	SYBR	None	Undetermined	39.0464					false	2.1861	true	3	24	63.2793				N	N	N	N	N	N
+E1	m5	shal	UNKNOWN	SYBR	None	32.2159	32.943	1.0282				false	2.1861	true	3	22	79.9323				N	Y	Y	N	N	N
+E2	m5	shal	UNKNOWN	SYBR	None	33.67	32.943	1.0282				false	2.1861	true	3	26	79.9323				N	N	Y	N	N	N
+E3	m5	shal	UNKNOWN	SYBR	None	Undetermined	32.943	1.0282				false	2.1861	true	3	18	62.9473				N	N	N	N	N	N
+E4	m13	shal	UNKNOWN	SYBR	None	33.3957	34.005	0.7706				false	2.1861	true	3	24	80.9383				N	N	Y	N	N	N
+E5	m13	shal	UNKNOWN	SYBR	None	34.8712	34.005	0.7706				false	2.1861	true	3	27	79.9639				N	N	Y	N	N	N
+E6	m13	shal	UNKNOWN	SYBR	None	33.7481	34.005	0.7706				false	2.1861	true	3	25	79.9639				N	N	Y	N	N	N
+E7	z5	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	13	61.9981				N	N	N	N	N	N
+E8	z5	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	35	61.9981				N	N	N	N	N	N
+E9	z5	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	29	62.8953				N	N	N	N	N	N
+E10	wb1	shal	UNKNOWN	SYBR	None	20.2281	20.2915	0.1632				false	2.1861	true	3	14	80.8676				N	N	N	N	N	N
+E11	wb1	shal	UNKNOWN	SYBR	None	20.4768	20.2915	0.1632				false	2.1861	true	3	14	80.3002				N	N	N	Y	N	N
+E12	wb1	shal	UNKNOWN	SYBR	None	20.1695	20.2915	0.1632				false	2.1861	true	3	14	80.3002				N	N	N	N	N	N
+F1	m6	shal	UNKNOWN	SYBR	None	32.779	32.9305	0.1578				false	2.1861	true	3	23	80.9285				N	Y	N	N	N	N
+F2	m6	shal	UNKNOWN	SYBR	None	33.094	32.9305	0.1578				false	2.1861	true	3	24	79.9323				N	Y	N	N	N	N
+F3	m6	shal	UNKNOWN	SYBR	None	32.9184	32.9305	0.1578				false	2.1861	true	3	22	79.9647				N	N	N	N	N	N
+F4	m14	shal	UNKNOWN	SYBR	None	30.8433	31.2319	0.7044				false	2.1861	true	3	24	80.9383				N	Y	Y	N	N	N
+F5	m14	shal	UNKNOWN	SYBR	None	32.045	31.2319	0.7044				false	2.1861	true	3	23	79.9639				N	N	Y	N	Y	N
+F6	m14	shal	UNKNOWN	SYBR	None	30.8075	31.2319	0.7044				false	2.1861	true	3	21	80.9833				N	Y	Y	N	N	N
+F7	z6	shal	UNKNOWN	SYBR	None	Undetermined	33.8446					false	2.1861	true	3	29	61.9981				N	N	N	N	N	N
+F8	z6	shal	UNKNOWN	SYBR	None	Undetermined	33.8446					false	2.1861	true	3	8	61.9981				N	N	N	N	N	N
+F9	z6	shal	UNKNOWN	SYBR	None	33.8446	33.8446					false	2.1861	true	3	25	80.8676				N	N	N	N	N	N
+F10	wb2	shal	UNKNOWN	SYBR	None	21.8433	20.7943	1.0071				false	2.1861	true	3	14	80.8676				N	N	Y	N	N	N
+F11	wb2	shal	UNKNOWN	SYBR	None	20.7046	20.7943	1.0071				false	2.1861	true	3	14	81.3428				N	N	Y	N	N	N
+F12	wb2	shal	UNKNOWN	SYBR	None	19.8351	20.7943	1.0071				false	2.1861	true	3	14	81.3428				N	N	Y	N	N	N
+G1	m7	shal	UNKNOWN	SYBR	None	32.7002	32.5939	0.1258				false	2.1861	true	3	26	79.9323				N	Y	N	N	N	N
+G2	m7	shal	UNKNOWN	SYBR	None	32.455	32.5939	0.1258				false	2.1861	true	3	24	79.9323				N	N	N	N	N	N
+G3	m7	shal	UNKNOWN	SYBR	None	32.6266	32.5939	0.1258				false	2.1861	true	3	22	80.9383				N	Y	N	N	N	N
+G4	m15	shal	UNKNOWN	SYBR	None	31.9336	31.5959	0.3801				false	2.1861	true	3	25	80.9383				N	Y	N	N	N	N
+G5	m15	shal	UNKNOWN	SYBR	None	31.6698	31.5959	0.3801				false	2.1861	true	3	22	80.9833				N	Y	N	N	N	N
+G6	m15	shal	UNKNOWN	SYBR	None	31.1843	31.5959	0.3801				false	2.1861	true	3	21	79.9639				N	Y	N	N	N	N
+G7	z7	shal	UNKNOWN	SYBR	None	32.3781	31.5022	0.7898				false	2.1861	true	3	23	79.943				N	Y	Y	N	N	N
+G8	z7	shal	UNKNOWN	SYBR	None	31.2844	31.5022	0.7898				false	2.1861	true	3	23	79.943				N	Y	Y	N	N	N
+G9	z7	shal	UNKNOWN	SYBR	None	30.8441	31.5022	0.7898				false	2.1861	true	3	22	80.8676				N	Y	Y	N	N	N
+G10	bad	shal	UNKNOWN	SYBR	None	21.2744	20.2783	1.0032				false	2.1861	true	3	14	80.8676				N	N	Y	Y	N	N
+G11	bad	shal	UNKNOWN	SYBR	None	20.2923	20.2783	1.0032				false	2.1861	true	3	13	80.3002				N	N	Y	N	N	N
+G12	bad	shal	UNKNOWN	SYBR	None	19.2683	20.2783	1.0032				false	2.1861	true	3	14	81.3428				N	Y	Y	N	N	N
+H1	m8	shal	UNKNOWN	SYBR	None	32.4364	32.8419	0.9007				false	2.1861	true	3	23	79.9323				N	Y	Y	N	N	N
+H2	m8	shal	UNKNOWN	SYBR	None	32.2152	32.8419	0.9007				false	2.1861	true	3	24	79.9323				N	Y	Y	N	N	N
+H3	m8	shal	UNKNOWN	SYBR	None	33.874	32.8419	0.9007				false	2.1861	true	3	25	80.9383				N	N	Y	N	N	N
+H4	m16	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	39	61.9586				N	N	N	N	N	Y
+H5	m16	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	12	63.004				N	N	N	N	N	N
+H6	m16	shal	UNKNOWN	SYBR	None	Undetermined						false	2.1861	true	3	6	63.004				N	N	N	N	N	N
+H7	z8	shal	UNKNOWN	SYBR	None	35.5337	34.2066	1.3597				false	2.1861	true	3	25	79.943				N	N	Y	N	N	N
+H8	z8	shal	UNKNOWN	SYBR	None	34.2698	34.2066	1.3597				false	2.1861	true	3	26	79.943				N	N	Y	N	N	N
+H9	z8	shal	UNKNOWN	SYBR	None	32.8164	34.2066	1.3597				false	2.1861	true	3	22	80.8676				N	N	Y	N	N	N
+H10		shal	NTC	SYBR	None	33.7126						false	2.1861	true	3	25	80.8676				Y	N	N	N	N	N
+H11		shal	NTC	SYBR	None	Undetermined						false	2.1861	true	3	38	62.3161				N	N	N	N	N	N
+H12		shal	NTC	SYBR	None	28.8549						false	2.1861	true	3	20	80.3002				Y	N	N	N	N	N

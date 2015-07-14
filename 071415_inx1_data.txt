@@ -1,0 +1,105 @@
+* Block Type = 96well
+* Chemistry = SYBR_GREEN
+* Experiment File Name = C:\Users\user\Dropbox\MolLab2015\StudentProjects\STGsingleneuron\071415_inx1.eds
+* Experiment Run End Time = Not Started
+* Instrument Type = steponeplus
+* Passive Reference = ROX
+
+[Results]
+Well	Sample Name	Target Name	Task	Reporter	Quencher	Cт	Cт Mean	Cт SD	Quantity	Quantity Mean	Quantity SD	Automatic Ct Threshold	Ct Threshold	Automatic Baseline	Baseline Start	Baseline End	Tm1	Tm2	Tm3	Comments	AMPNC	BADROX	HIGHSD	NOISE	SPIKE	NOSIGNAL	OUTLIERRG	EXPFAIL
+A1	m1	inx1	UNKNOWN	SYBR	None	Undetermined	27.7815	0.2902				false	2.4896	true	1	2	79.9442				N	Y	N	Y	Y	N	N	N
+A2	m1	inx1	UNKNOWN	SYBR	None	27.9867	27.7815	0.2902				false	2.4896	true	3	20	79.9442				N	Y	N	N	N	N	N	N
+A3	m1	inx1	UNKNOWN	SYBR	None	27.5763	27.7815	0.2902				false	2.4896	true	3	20	79.9423				N	Y	N	N	N	N	N	N
+A4	m9	inx1	UNKNOWN	SYBR	None	28.366	28.2256	0.2513				false	2.4896	true	3	21	80.9067				N	Y	N	N	N	N	N	N
+A5	m9	inx1	UNKNOWN	SYBR	None	28.3754	28.2256	0.2513				false	2.4896	true	3	22	81.0066				N	Y	N	N	N	N	N	N
+A6	m9	inx1	UNKNOWN	SYBR	None	27.9355	28.2256	0.2513				false	2.4896	true	3	21	79.9813				N	Y	N	N	N	N	Y	N
+A7	z1	inx1	UNKNOWN	SYBR	None	33.5135	34.7188	1.7045				false	2.4896	true	3	24	77.9491				N	Y	Y	N	N	N	N	N
+A8	z1	inx1	UNKNOWN	SYBR	None							false	2.4896	true	3	27					N	N	N	N	N	N	N	N
+A9	z1	inx1	UNKNOWN	SYBR	None	35.9241	34.7188	1.7045				false	2.4896	true	3	26	77.9437				N	Y	Y	N	N	N	N	N
+A10	z9	inx1	UNKNOWN	SYBR	None	34.2724	34.2724					false	2.4896	true	3	27	77.9437				N	N	N	N	N	N	N	N
+A11	z9	inx1	UNKNOWN	SYBR	None							false	2.4896	true	3	15					N	N	N	N	N	N	N	N
+A12	z9	inx1	UNKNOWN	SYBR	None	Undetermined	34.2724					false	2.4896	true	3	23	63.112				N	N	N	N	N	N	N	N
+B1	m2	inx1	UNKNOWN	SYBR	None	28.8333	28.3218	0.7213				false	2.4896	true	3	22	79.9442				N	Y	Y	N	N	N	N	N
+B2	m2	inx1	UNKNOWN	SYBR	None	28.6354	28.3218	0.7213				false	2.4896	true	3	21	79.9442				N	Y	Y	N	N	N	N	N
+B3	m2	inx1	UNKNOWN	SYBR	None	27.4968	28.3218	0.7213				false	2.4896	true	3	20	79.9423				N	Y	Y	N	N	N	N	N
+B4	m10	inx1	UNKNOWN	SYBR	None	30.0174	29.6883	0.4011				false	2.4896	true	3	24	79.9423				N	Y	N	N	N	N	N	N
+B5	m10	inx1	UNKNOWN	SYBR	None	29.8059	29.6883	0.4011				false	2.4896	true	3	22	79.9813				N	Y	N	N	N	N	N	N
+B6	m10	inx1	UNKNOWN	SYBR	None	29.2415	29.6883	0.4011				false	2.4896	true	3	21	79.9813				N	Y	N	N	N	N	N	N
+B7	z2	inx1	UNKNOWN	SYBR	None	31.944	30.8011	0.9947				false	2.4896	true	3	24	79.948				N	Y	Y	N	N	N	N	N
+B8	z2	inx1	UNKNOWN	SYBR	None	30.3294	30.8011	0.9947				false	2.4896	true	3	22	79.948				N	Y	Y	N	N	N	N	N
+B9	z2	inx1	UNKNOWN	SYBR	None	30.1301	30.8011	0.9947				false	2.4896	true	3	23	79.9394				N	Y	Y	N	N	N	N	N
+B10	z10	inx1	UNKNOWN	SYBR	None	32.1157	31.018	1.626				false	2.4896	true	3	24	79.9394				N	N	Y	N	N	N	N	N
+B11	z10	inx1	UNKNOWN	SYBR	None	31.7882	31.018	1.626				false	2.4896	true	3	23	78.2458				N	Y	Y	N	N	N	N	N
+B12	z10	inx1	UNKNOWN	SYBR	None	29.15	31.018	1.626				false	2.4896	true	3	19	79.2981				N	Y	Y	N	N	N	N	N
+C1	m3	inx1	UNKNOWN	SYBR	None	28.8427	29.2498	0.7735				false	2.4896	true	3	21	80.9059				N	Y	Y	N	N	N	N	N
+C2	m3	inx1	UNKNOWN	SYBR	None	28.7649	29.2498	0.7735				false	2.4896	true	3	22	79.9442				N	Y	Y	N	N	N	N	N
+C3	m3	inx1	UNKNOWN	SYBR	None	30.1418	29.2498	0.7735				false	2.4896	true	3	22	80.9067				N	N	Y	N	N	N	N	N
+C4	m11	inx1	UNKNOWN	SYBR	None	30.952	29.8567	0.9617				false	2.4896	true	3	23	79.9423				N	Y	Y	N	N	N	N	N
+C5	m11	inx1	UNKNOWN	SYBR	None	29.1501	29.8567	0.9617				false	2.4896	true	3	23	81.0066				N	Y	Y	N	N	N	N	N
+C6	m11	inx1	UNKNOWN	SYBR	None	29.4682	29.8567	0.9617				false	2.4896	true	3	22	81.0066				N	Y	Y	N	N	N	N	N
+C7	z3	inx1	UNKNOWN	SYBR	None	30.1166	29.4279	0.8751				false	2.4896	true	3	21	79.948				N	N	Y	N	N	N	N	N
+C8	z3	inx1	UNKNOWN	SYBR	None	29.724	29.4279	0.8751				false	2.4896	true	3	21	79.948				N	N	Y	N	N	N	N	N
+C9	z3	inx1	UNKNOWN	SYBR	None	28.4433	29.4279	0.8751				false	2.4896	true	3	20	79.9394				N	Y	Y	N	N	N	N	N
+C10	z11	inx1	UNKNOWN	SYBR	None							false	2.4896	true	3	27					N	N	N	N	N	N	N	N
+C11	z11	inx1	UNKNOWN	SYBR	None	Undetermined						false	2.4896	true	3	33	63.112				N	N	N	N	N	N	N	N
+C12	z11	inx1	UNKNOWN	SYBR	None	Undetermined						false	2.4896	true	3	39	62.1205				N	N	N	N	N	N	N	Y
+D1	m4	inx1	UNKNOWN	SYBR	None	28.3061	27.9806	0.537				false	2.4896	true	3	20	79.9442				N	Y	Y	N	N	N	N	N
+D2	m4	inx1	UNKNOWN	SYBR	None	28.2748	27.9806	0.537				false	2.4896	true	3	18	79.9442				N	Y	Y	N	N	N	N	N
+D3	m4	inx1	UNKNOWN	SYBR	None	27.3608	27.9806	0.537				false	2.4896	true	3	19	79.9423				N	Y	Y	N	N	N	N	N
+D4	m12	inx1	UNKNOWN	SYBR	None	30.0366	29.2825	0.6594				false	2.4896	true	3	22	79.9423				N	Y	Y	N	N	N	N	N
+D5	m12	inx1	UNKNOWN	SYBR	None	28.9961	29.2825	0.6594				false	2.4896	true	3	20	79.9813				N	Y	Y	N	N	N	N	N
+D6	m12	inx1	UNKNOWN	SYBR	None	28.8148	29.2825	0.6594				false	2.4896	true	3	21	79.9813				N	N	Y	N	N	N	N	N
+D7	z4	inx1	UNKNOWN	SYBR	None	30.4997	30.0775	0.5037				false	2.4896	true	3	21	79.948				N	N	Y	N	N	N	N	N
+D8	z4	inx1	UNKNOWN	SYBR	None	29.5199	30.0775	0.5037				false	2.4896	true	3	22	79.948				N	Y	Y	N	N	N	N	N
+D9	z4	inx1	UNKNOWN	SYBR	None	30.2128	30.0775	0.5037				false	2.4896	true	3	20	79.9394				N	N	Y	N	N	N	N	N
+D10	z12	inx1	UNKNOWN	SYBR	None	29.1704	28.9277	0.6174				false	2.4896	true	3	21	79.9394				N	N	Y	N	N	N	N	N
+D11	z12	inx1	UNKNOWN	SYBR	None	29.3869	28.9277	0.6174				false	2.4896	true	3	21	81.2987				N	N	Y	N	N	N	N	N
+D12	z12	inx1	UNKNOWN	SYBR	None	28.2258	28.9277	0.6174				false	2.4896	true	3	20	81.2987				N	Y	Y	N	N	N	N	N
+E1	m5	inx1	UNKNOWN	SYBR	None	30.0711	29.7865	0.4471				false	2.4896	true	3	22	79.9442				N	Y	N	N	N	N	N	N
+E2	m5	inx1	UNKNOWN	SYBR	None	30.0171	29.7865	0.4471				false	2.4896	true	3	22	79.9442				N	Y	N	N	N	N	N	N
+E3	m5	inx1	UNKNOWN	SYBR	None	29.2712	29.7865	0.4471				false	2.4896	true	3	22	80.9067				N	Y	N	N	N	N	N	N
+E4	m13	inx1	UNKNOWN	SYBR	None	31.0419	30.5951	0.3973				false	2.4896	true	3	23	79.9423				N	Y	N	N	N	N	N	N
+E5	m13	inx1	UNKNOWN	SYBR	None	30.2816	30.5951	0.3973				false	2.4896	true	3	23	79.9813				N	Y	N	N	N	N	N	N
+E6	m13	inx1	UNKNOWN	SYBR	None	30.4618	30.5951	0.3973				false	2.4896	true	3	22	79.9813				N	Y	N	N	N	N	N	N
+E7	z5	inx1	UNKNOWN	SYBR	None	Undetermined						false	2.4896	true	3	37	61.9163				N	N	N	N	N	N	N	Y
+E8	z5	inx1	UNKNOWN	SYBR	None	Undetermined						false	2.4896	true	3	31	75.9658				N	N	N	N	N	N	N	N
+E9	z5	inx1	UNKNOWN	SYBR	None	Undetermined						false	2.4896	true	3	31	62.9033				N	N	N	N	N	N	N	N
+E10	wb1	inx1	UNKNOWN	SYBR	None	16.6582	15.672	1.0175				false	2.4896	true	3	10	79.9394				N	Y	Y	N	N	N	N	N
+E11	wb1	inx1	UNKNOWN	SYBR	None	15.732	15.672	1.0175				false	2.4896	true	3	9	80.3505				N	N	Y	N	N	N	N	N
+E12	wb1	inx1	UNKNOWN	SYBR	None	14.6259	15.672	1.0175				false	2.4896	true	1	2	80.3505				N	Y	Y	N	N	N	N	N
+F1	m6	inx1	UNKNOWN	SYBR	None	29.109	28.3125	0.6906				false	2.4896	true	3	22	79.9442				N	Y	Y	N	N	N	N	N
+F2	m6	inx1	UNKNOWN	SYBR	None	27.9479	28.3125	0.6906				false	2.4896	true	3	19	79.9442				N	Y	Y	N	N	N	N	N
+F3	m6	inx1	UNKNOWN	SYBR	None	27.8804	28.3125	0.6906				false	2.4896	true	3	21	79.9423				N	N	Y	N	N	N	N	N
+F4	m14	inx1	UNKNOWN	SYBR	None	29.9758	29.6831	0.3009				false	2.4896	true	3	22	79.9423				N	Y	N	N	N	N	N	N
+F5	m14	inx1	UNKNOWN	SYBR	None	29.3745	29.6831	0.3009				false	2.4896	true	3	22	79.9813				N	Y	N	N	N	N	N	N
+F6	m14	inx1	UNKNOWN	SYBR	None	29.699	29.6831	0.3009				false	2.4896	true	3	21	79.9813				N	N	N	N	N	N	N	N
+F7	z6	inx1	UNKNOWN	SYBR	None	32.6391	31.9474	0.6658				false	2.4896	true	3	25	79.948				N	N	Y	N	N	N	N	N
+F8	z6	inx1	UNKNOWN	SYBR	None	31.3108	31.9474	0.6658				false	2.4896	true	3	22	79.948				N	N	Y	N	N	N	N	N
+F9	z6	inx1	UNKNOWN	SYBR	None	31.8923	31.9474	0.6658				false	2.4896	true	3	24	79.9394				N	N	Y	N	N	N	N	N
+F10	wb2	inx1	UNKNOWN	SYBR	None	16.7757	16.2461	0.4587				false	2.4896	true	3	8	79.9394				N	N	N	N	N	N	Y	N
+F11	wb2	inx1	UNKNOWN	SYBR	None	15.9855	16.2461	0.4587				false	2.4896	true	3	8	80.3505				N	Y	N	N	N	N	N	N
+F12	wb2	inx1	UNKNOWN	SYBR	None	15.977	16.2461	0.4587				false	2.4896	true	3	7	81.2987				N	Y	N	N	N	N	N	N
+G1	m7	inx1	UNKNOWN	SYBR	None	31.0392	30.7087	0.5641				false	2.4896	true	3	23	79.9442				N	Y	Y	N	N	N	N	N
+G2	m7	inx1	UNKNOWN	SYBR	None	31.0296	30.7087	0.5641				false	2.4896	true	3	23	79.9442				N	Y	Y	N	N	N	N	N
+G3	m7	inx1	UNKNOWN	SYBR	None	30.0573	30.7087	0.5641				false	2.4896	true	3	24	79.9423				N	Y	Y	N	N	N	Y	N
+G4	m15	inx1	UNKNOWN	SYBR	None	30.6326	30.225	0.3543				false	2.4896	true	3	23	79.9423				N	Y	N	N	N	N	N	N
+G5	m15	inx1	UNKNOWN	SYBR	None	29.9916	30.225	0.3543				false	2.4896	true	3	23	81.0066				N	Y	N	N	N	N	N	N
+G6	m15	inx1	UNKNOWN	SYBR	None	30.0506	30.225	0.3543				false	2.4896	true	3	22	81.0066				N	Y	N	N	N	N	N	N
+G7	z7	inx1	UNKNOWN	SYBR	None	29.1981	28.9285	0.2745				false	2.4896	true	3	22	79.948				N	Y	N	N	N	N	N	N
+G8	z7	inx1	UNKNOWN	SYBR	None	28.938	28.9285	0.2745				false	2.4896	true	3	19	79.948				N	Y	N	N	N	N	N	N
+G9	z7	inx1	UNKNOWN	SYBR	None	28.6494	28.9285	0.2745				false	2.4896	true	3	20	79.9394				N	N	N	N	N	N	N	N
+G10	wb3	inx1	UNKNOWN	SYBR	None	15.8239	16.3767	0.7817				false	2.4896	true	3	10	79.9394				N	N	Y	N	N	N	N	N
+G11	wb3	inx1	UNKNOWN	SYBR	None	16.9294	16.3767	0.7817				false	2.4896	true	3	11	81.2987				N	Y	Y	N	Y	N	N	N
+G12	wb3	inx1	UNKNOWN	SYBR	None	Undetermined	16.3767	0.7817				false	2.4896	true	3	39	72.2072				N	Y	N	N	N	Y	N	Y
+H1	m8	inx1	UNKNOWN	SYBR	None	29.4331	28.6486	0.692				false	2.4896	true	3	21	79.9442				N	Y	Y	N	N	N	N	N
+H2	m8	inx1	UNKNOWN	SYBR	None	28.3883	28.6486	0.692				false	2.4896	true	3	20	79.9442				N	Y	Y	N	N	N	N	N
+H3	m8	inx1	UNKNOWN	SYBR	None	28.1246	28.6486	0.692				false	2.4896	true	3	21	79.9423				N	Y	Y	N	N	N	N	N
+H4	m16	inx1	UNKNOWN	SYBR	None	25.1746	24.6786	0.529				false	2.4896	true	3	16	79.9423				N	Y	Y	N	N	N	N	N
+H5	m16	inx1	UNKNOWN	SYBR	None	24.1218	24.6786	0.529				false	2.4896	true	3	16	79.9813				N	Y	Y	N	N	N	N	N
+H6	m16	inx1	UNKNOWN	SYBR	None	24.7393	24.6786	0.529				false	2.4896	true	3	16	79.9813				N	Y	Y	N	N	N	N	N
+H7	z8	inx1	UNKNOWN	SYBR	None	27.9588	27.7872	0.1552				false	2.4896	true	3	19	79.948				N	Y	N	N	N	N	N	N
+H8	z8	inx1	UNKNOWN	SYBR	None	27.7462	27.7872	0.1552				false	2.4896	true	3	18	79.948				N	Y	N	N	N	N	N	N
+H9	z8	inx1	UNKNOWN	SYBR	None	27.6566	27.7872	0.1552				false	2.4896	true	3	20	79.9394				N	Y	N	N	N	N	N	N
+H10		inx1	NTC	SYBR	None	Undetermined						false	2.4896	true	3	11	62.9033				N	N	N	N	N	N	N	N
+H11		inx1	NTC	SYBR	None	33.3937						false	2.4896	true	3	25	80.3505				Y	Y	N	N	N	N	N	N
+H12		inx1	NTC	SYBR	None	Undetermined						false	2.4896	true	3	4	94.1862				N	Y	N	N	N	Y	N	N
