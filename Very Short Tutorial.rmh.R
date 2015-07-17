@@ -1,0 +1,12 @@
+#setwd to source file location
+install.packages("MCMC.qpcr")
+library(MCMC.qpcr)
+data(beckham.data)
+data(beckham.eff)
+qs=cq2counts(data=beckham.data, effic=beckham.eff, genecols=c(4:13),condcols=c(1:3), Cq1=37)
+qs$treatment.time=as.factor(paste(qs$tr,qs$time,sep="."))
+qs$treatment.time=relevel(qs$treatment.time,ref="control.0h")
+naive=mcmc.qpcr(data=qs, fixed="treatment.time")
+s1=HPDsummary(model=naive,data=qs)
+s0=HPDsummary(model=naive,data=qs,relative=TRUE)
+summary(naive)
