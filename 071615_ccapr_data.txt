@@ -1,0 +1,105 @@
+* Block Type = 96well
+* Chemistry = SYBR_GREEN
+* Experiment File Name = E:\071615_ccapr.eds
+* Experiment Run End Time = Not Started
+* Instrument Type = steponeplus
+* Passive Reference = ROX
+
+[Results]
+Well	Sample Name	Target Name	Task	Reporter	Quencher	Cт	Cт Mean	Cт SD	Quantity	Quantity Mean	Quantity SD	Automatic Ct Threshold	Ct Threshold	Automatic Baseline	Baseline Start	Baseline End	Tm1	Tm2	Tm3	Comments	AMPNC	BADROX	HIGHSD
+A1	1	ccapr	UNKNOWN	SYBR	None	22.534	20.5407	1.8954				false	0.7398	true	3	15	84.8598				N	Y	Y
+A2	1	ccapr	UNKNOWN	SYBR	None	20.3268	20.5407	1.8954				false	0.7398	true	3	14	84.8598				N	Y	Y
+A3	1	ccapr	UNKNOWN	SYBR	None	18.7613	20.5407	1.8954				false	0.7398	true	3	11	84.8936				N	Y	Y
+A4	9	ccapr	UNKNOWN	SYBR	None	17.9735	17.1706	0.724				false	0.7398	true	3	13	84.8936				N	Y	Y
+A5	9	ccapr	UNKNOWN	SYBR	None	16.9706	17.1706	0.724				false	0.7398	true	3	10	84.9436				N	Y	Y
+A6	9	ccapr	UNKNOWN	SYBR	None	16.5675	17.1706	0.724				false	0.7398	true	3	7	84.9436				N	Y	Y
+A7	1																				N	N	N
+A8	1																				N	N	N
+A9	1																				N	N	N
+A10	9																				N	N	N
+A11	9																				N	N	N
+A12	9																				N	N	N
+B1	2	ccapr	UNKNOWN	SYBR	None	21.8538	20.4262	2.0189				false	0.7398	true	3	16	84.8598				N	Y	Y
+B2	2	ccapr	UNKNOWN	SYBR	None	18.9986	20.4262	2.0189				false	0.7398	true	3	12	84.8598				N	N	Y
+B3	2	ccapr	UNKNOWN	SYBR	None							false	0.7398	true	1	2					N	N	N
+B4	10	ccapr	UNKNOWN	SYBR	None	21.2052	20.2781	0.9201				false	0.7398	true	3	15	84.8936				N	N	Y
+B5	10	ccapr	UNKNOWN	SYBR	None	20.2638	20.2781	0.9201				false	0.7398	true	3	13	84.9436				N	N	Y
+B6	10	ccapr	UNKNOWN	SYBR	None	19.3653	20.2781	0.9201				false	0.7398	true	3	11	83.9792				N	N	Y
+B7	2																				N	N	N
+B8	2																				N	N	N
+B9	2																				N	N	N
+B10	10																				N	N	N
+B11	10																				N	N	N
+B12	10																				N	N	N
+C1	3	ccapr	UNKNOWN	SYBR	None	22.7997	21.2679	1.4013				false	0.7398	true	3	16	84.8598				N	Y	Y
+C2	3	ccapr	UNKNOWN	SYBR	None	20.0504	21.2679	1.4013				false	0.7398	true	3	9	84.8598				N	Y	Y
+C3	3	ccapr	UNKNOWN	SYBR	None	20.9537	21.2679	1.4013				false	0.7398	true	3	12	84.8936				N	N	Y
+C4	11	ccapr	UNKNOWN	SYBR	None	20.5899	19.4272	1.1162				false	0.7398	true	3	15	84.8936				N	N	Y
+C5	11	ccapr	UNKNOWN	SYBR	None	19.3275	19.4272	1.1162				false	0.7398	true	3	13	83.9792				N	N	Y
+C6	11	ccapr	UNKNOWN	SYBR	None	18.3641	19.4272	1.1162				false	0.7398	true	3	11	83.9792				N	N	Y
+C7	3																				N	N	N
+C8	3																				N	N	N
+C9	3																				N	N	N
+C10	11																				N	N	N
+C11	11																				N	N	N
+C12	11																				N	N	N
+D1	4	ccapr	UNKNOWN	SYBR	None	22.7633	20.7044	2.1712				false	0.7398	true	3	16	84.8598				N	Y	Y
+D2	4	ccapr	UNKNOWN	SYBR	None	20.914	20.7044	2.1712				false	0.7398	true	3	14	84.8598				N	N	Y
+D3	4	ccapr	UNKNOWN	SYBR	None	18.4361	20.7044	2.1712				false	0.7398	true	3	11	84.8936				N	Y	Y
+D4	12	ccapr	UNKNOWN	SYBR	None	23.4023	22.2905	1.2934				false	0.7398	true	3	15	84.8936				N	N	Y
+D5	12	ccapr	UNKNOWN	SYBR	None	22.5982	22.2905	1.2934				false	0.7398	true	3	16	83.9792				N	N	Y
+D6	12	ccapr	UNKNOWN	SYBR	None	20.871	22.2905	1.2934				false	0.7398	true	3	15	83.9792				N	N	Y
+D7	4																				N	N	N
+D8	4																				N	N	N
+D9	4																				N	N	N
+D10	12																				N	N	N
+D11	12																				N	N	N
+D12	12																				N	N	N
+E1	5	ccapr	UNKNOWN	SYBR	None	21.7272	19.8533	1.6422				false	0.7398	true	3	13	84.8598				N	N	Y
+E2	5	ccapr	UNKNOWN	SYBR	None	19.1676	19.8533	1.6422				false	0.7398	true	3	12	84.8598				N	Y	Y
+E3	5	ccapr	UNKNOWN	SYBR	None	18.6651	19.8533	1.6422				false	0.7398	true	3	12	84.8936				N	N	Y
+E4	13	ccapr	UNKNOWN	SYBR	None	23.1608	22.3029	0.8186				false	0.7398	true	3	16	84.8936				N	N	Y
+E5	13	ccapr	UNKNOWN	SYBR	None	22.2178	22.3029	0.8186				false	0.7398	true	3	16	83.9792				N	Y	Y
+E6	13	ccapr	UNKNOWN	SYBR	None	21.5302	22.3029	0.8186				false	0.7398	true	3	14	84.9436				N	N	Y
+E7	5																				N	N	N
+E8	5																				N	N	N
+E9	5																				N	N	N
+E10	13																				N	N	N
+E11	13																				N	N	N
+E12	13																				N	N	N
+F1	6	ccapr	UNKNOWN	SYBR	None	23.4348	21.0705	2.1267				false	0.7398	true	3	15	84.8598				N	Y	Y
+F2	6	ccapr	UNKNOWN	SYBR	None	20.463	21.0705	2.1267				false	0.7398	true	3	14	84.8598				N	Y	Y
+F3	6	ccapr	UNKNOWN	SYBR	None	19.3137	21.0705	2.1267				false	0.7398	true	3	13	84.8936				N	Y	Y
+F4	14	ccapr	UNKNOWN	SYBR	None	19.0939	18.3761	0.8441				false	0.7398	true	3	13	84.8936				N	N	Y
+F5	14	ccapr	UNKNOWN	SYBR	None	18.5883	18.3761	0.8441				false	0.7398	true	3	11	84.9436				N	Y	Y
+F6	14	ccapr	UNKNOWN	SYBR	None	17.4462	18.3761	0.8441				false	0.7398	true	3	8	83.9792				N	N	Y
+F7	6																				N	N	N
+F8	6																				N	N	N
+F9	6																				N	N	N
+F10	14																				N	N	N
+F11	14																				N	N	N
+F12	14																				N	N	N
+G1	7	ccapr	UNKNOWN	SYBR	None	21.4152	18.8009	2.3067				false	0.7398	true	3	15	84.8598				N	Y	Y
+G2	7	ccapr	UNKNOWN	SYBR	None	17.935	18.8009	2.3067				false	0.7398	true	3	7	84.8598				N	Y	Y
+G3	7	ccapr	UNKNOWN	SYBR	None	17.0525	18.8009	2.3067				false	0.7398	true	3	9	84.8936				N	N	Y
+G4	15	ccapr	UNKNOWN	SYBR	None	22.5102	21.697	1.1068				false	0.7398	true	3	17	84.8936				N	N	Y
+G5	15	ccapr	UNKNOWN	SYBR	None	22.1442	21.697	1.1068				false	0.7398	true	3	15	84.9436				N	N	Y
+G6	15	ccapr	UNKNOWN	SYBR	None	20.4365	21.697	1.1068				false	0.7398	true	3	15	84.9436				N	N	Y
+G7	7																				N	N	N
+G8	7																				N	N	N
+G9	7																				N	N	N
+G10	15																				N	N	N
+G11	15																				N	N	N
+G12	15																				N	N	N
+H1	8	ccapr	UNKNOWN	SYBR	None							false	0.7398	true	3	25					N	N	N
+H2	8	ccapr	UNKNOWN	SYBR	None							false	0.7398	true	3	27					N	N	N
+H3	8	ccapr	UNKNOWN	SYBR	None							false	0.7398	true	3	19					N	N	N
+H4		ccapr	NTC	SYBR	None	28.5683						false	0.7398	true	3	21	75.986				Y	N	N
+H5		ccapr	NTC	SYBR	None	30.2691						false	0.7398	true	3	24	76.0635				Y	N	N
+H6		ccapr	NTC	SYBR	None	28.731						false	0.7398	true	3	23	76.0635				Y	N	N
+H7	8																				N	N	N
+H8	8																				N	N	N
+H9	8																				N	N	N
+H10																					N	N	N
+H11																					N	N	N
+H12																					N	N	N
