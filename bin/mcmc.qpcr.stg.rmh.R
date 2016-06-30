@@ -4,7 +4,7 @@
 ## This script is for analyzing data related to the STG qpcr projects
 ##=============================================================================================================#
 
-##script stored in "Z:/NSB_2016/IntegrativeNeuroscience/qPCR-mouse/Rayna/bin"
+##script stored in "Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/bin"
 ## set path to data dir
 setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data_xls")
 
@@ -23,8 +23,8 @@ setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data_xls")
 #install.packages("MCMC.qpcr")
 #install.packages("reshape2")
 library(xlsx)
-library(plyr)
 library(dplyr)
+library(plyr)
 library(MCMC.qpcr)
 library(reshape2)
 
@@ -77,17 +77,63 @@ str(dilutions)
 
 ## 3. Calculate primer efficiences with MCMC.qpcr PrimEFF function
 PrimEff(dilutions) # makes a plot with the primer efficiencies
-eff <- PrimEff(dilutions) #creates a table with the primer efficiencies
+amp.eff <- PrimEff(dilutions) #creates a table with the primer efficiencies
 
 
 ## 4. create counts dataframe 
 counts <- cleandata %>%
   filter(Task == "UNKNOWN") %>%
-  select(Well, sample, gene,  cq)
-str(counts)
+  select(Well, sample, gene,  cq) %>%
+  dcast(Well + sample ~ gene )
 
+## 5. Join count and sample info, sort by sample, order in logical fashion
+samples <- read.csv("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/sample_info/sample_info_2015.csv", header=TRUE, sep="," )
 
-counts <- dcast(counts, Well + sample ~ gene )
-head(counts)
+data <- inner_join(counts, samples) %>%
+  arrange(sample) %>%
+  select(sample, condition, CbNaV, IH, inx1, inx2)
 
+## 6. Turn cq into counts
 
+dd=cq2counts(
+  data=data,
+  genecols=c(3:6), # where the Cq data are in the data table
+  condcols=c(1:2), # which columns contain factors
+  effic=amp.eff,
+  Cq1=37
+)
+head(dd)
+
+## 7. Mixed model
+mm=mcmc.qpcr(
+  fixed="condition",
+  random="sample",
+  data=dd
+)
+summary(mm)
+
+## 8. Mixed model with diagnostic plots
+mmd=mcmc.qpcr(
+  fixed="condition",
+  random="sample",
+  data=dd,
+  pr=T,
+  pl=T
+)
+
+diagnostic.mcmc(
+  model=mmd,
+  col="grey50",
+  cex=0.8
+)
+
+## 9. Plot the data
+
+HPDplot(
+  model=mm,
+  factors="conditionstg",
+  main="STG vs Muscle"
+)
+
+s1=HPDsummary(model=mm,data=dd)
+s0=HPDsummary(model=mm,data=dd,relative=TRUE)
