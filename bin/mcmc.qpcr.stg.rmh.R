@@ -127,7 +127,7 @@ diagnostic.mcmc(
   cex=0.8
 )
 
-## 9. Plot the data
+## 9. Plot the data!!
 
 HPDplot(
   model=mm,
