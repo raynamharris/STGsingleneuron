@@ -18,20 +18,23 @@ setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data_xls")
 ## 6. Analyze data with MCMC.qpcr package
 
 #install.packages("xlsx", dependencies = TRUE) #note, must have Java installed on computer
-#install.packages("dplyr")
 #install.packages("plyr")
+#install.packages("dplyr")
 #install.packages("MCMC.qpcr")
+#install.packages("reshape2")
 library(xlsx)
-library(dplyr)
 library(plyr)
+library(dplyr)
 library(MCMC.qpcr)
-
+library(reshape2)
 
 ## 1. Loop over all experimental prjoect files and create one big "rawdata" dataframe
 ## uses read.xlsx function to read 1 sheet, sharting at row 8, nothing imported as a factor
-## NOTE! besure to clean enviornment before running this!
+
 
 file_list <- list.files() #creates a string will all the files in a diretory for us to loop through
+
+rm(rawdata) # first removed any dataframe called rawdata
 
 for (file in file_list){
   
@@ -49,6 +52,7 @@ for (file in file_list){
   
 }
 
+
 names(rawdata)
 str(rawdata)
 
@@ -60,8 +64,8 @@ names(cleandata)
 str(cleandata)
 cleandata$dna <- as.numeric(cleandata$dna, na.rm = TRUE)
 cleandata$cq <- as.numeric(cleandata$cq, na.rm = TRUE)
-
-
+cleandata$gene <- as.factor(cleandata$gene)
+str(cleandata)
 
 ## 2. Create dilutions dataframe with quantiry, target name, and ct. 
 ##    Then rename for MCMC.qpcr
@@ -79,8 +83,11 @@ eff <- PrimEff(dilutions) #creates a table with the primer efficiencies
 ## 4. create counts dataframe 
 counts <- cleandata %>%
   filter(Task == "UNKNOWN") %>%
-  select(sample, gene,  cq)
+  select(Well, sample, gene,  cq)
 str(counts)
 
+
+counts <- dcast(counts, Well + sample ~ gene )
+head(counts)
 
 
