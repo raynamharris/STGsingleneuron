@@ -33,7 +33,7 @@ library(MCMC.qpcr)
 library(reshape2)
 
 ## 1. Loop over all experimental prjoect files and create one big "rawdata" dataframe
-## uses read.xlsx function to read 1 sheet, sharting at row 8, nothing imported as a factor
+## uses read.xlsx function to read 1 sheet, sharting at row 8, only first 20 columns, nothing imported as a factor
 
 
 file_list <- list.files() #creates a string will all the files in a diretory for us to loop through
@@ -44,12 +44,12 @@ for (file in file_list){
   
   # if the merged dataset doesn't exist, create it
   if (!exists("rawdata")){
-    rawdata <- read.xlsx(file, sheetIndex = 1, startRow=8, stringsAsFactors=FALSE)
+    rawdata <- read.xlsx(file, sheetIndex = 1, startRow=8, colIndex = (1:20), stringsAsFactors=FALSE)
   }
   
   # if the merged dataset does exist, append to it
   if (exists("rawdata")){
-    temp_dataset <-read.xlsx(file, sheetIndex = 1, startRow=8, stringsAsFactors=FALSE)
+    temp_dataset <-read.xlsx(file, sheetIndex = 1, startRow=8, colIndex = (1:20), stringsAsFactors=FALSE)
     rawdata<-rbind(rawdata, temp_dataset)
     rm(temp_dataset)
   }
