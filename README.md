@@ -1,20 +1,21 @@
-# STG Molecular Biology
+# 2016 Integrative STG Module
+## Neural Systems and Behavior
 
-## some problems
-Okay, so this isn't a perfect repo. This is a hodgepod of data from the summer of 2015 when some students were doing qPCR data.
-I'm not sure where their standard curve data are, so I just made up some cq data for the gene efficiencies, based on the data from Misha's tutorial. 
+# Overview
+This repo contains reasearch conducting as part of the [Neural Systems and Behavior Course at MBL](http://www.mbl.edu/nsb/). The overall objective of the [Integrative Stomagtogastric Ganlion (STG) Module](http://www.mbl.edu/nsb/about/stg-integrative-molecular/) is to equip students with comprehensive understanding of the relationships between molecular activity in the nervous system and complex behavior. Knowledge and technical skills gained in this module will be widely applicable to research in other model and non-model organisms allowing students to ask questions on multiple levels of biological organization.
 
-## So what's the point?!?
-The whole reason I put this up on github is because I've perfected the data import and wrangling part of this process! Before, it took a lot of hand curation to get the data ready for MCMC.qpcr, but now we're all good.
+# Reporducible qPCR Workflow
+A major goal of this research-driven educational course is to equip students with tools to be reproducible. The goal is for all data clearning, manipulation, and analysis to take place in the R enviornment so that everythign can be reproduced. 
 
-## The good bits
-- `/bin/mcmc.qpcr.stg.rmh.R` This is the script that is reproducible!
-- `/data_xls` This is the directory with all the data exported from the machine. I know, why am I importing .xlxs files? Because that's what the machine spits out. :(
-- `/sample_info` This is the directory with the sample info. I could have put this with the qpcr export files, but it seemed like a good idea to keep them separate
+The 'ReproducibleExample' directory does just that. It takes raw data from a qPCR machine, reorganizes it for use with the MCMC.qpcr R package, and plots the data. 
 
-## MCMC.qpcr Resources
+Here's a pretty plot from the reproducible workflow.
+![Plot](results/HPDsummary.png) 
+
+# Studnet Projects
+As I said, this is a discovery driven course. Four students will be conducting their own reserach, and that scripts, data, and results will be stored here as well. 
+
+# MCMC.qpcr Resources
 For an in depth tutorial, check out [the MCMC.qpcr tutorial](http://www.bio.utexas.edu/research/matz_lab/matzlab/Methods.html) on the Matz lab website. Aso, be sure to [read the paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071448)!
 
-## Output
-Here's a pretty plot from the data
-![Plot](results/HPDsummary.png) 
+
