@@ -6,7 +6,7 @@
 
 ##script stored in "Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/bin"
 ## set path to data dir
-setwd("Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/data")
+setwd("Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/ReproducibleExample/data")
 
 
 ## The process:
@@ -140,7 +140,7 @@ HPDplot(
 )
 
 S1=HPDsummary(model=mm,data=dd)
-#png('Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/results/HPDsummary.png')
+#png('Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/ReproducibleExample/results/HPDsummary.png')
 #plot(HPDsummary(model=mm,data=dd))
 #dev.off()
 
