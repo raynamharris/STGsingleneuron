@@ -6,7 +6,7 @@
 
 ##script stored in "Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/bin"
 ## set path to data dir
-setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data")
+setwd("Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/data")
 
 
 ## The process:
@@ -116,7 +116,7 @@ mm=mcmc.qpcr(
 )
 summary(mm)
 
-## 9. Mixed model with diagnostic plots
+## 9. Mixed model with diagnostic plots!
 mmd=mcmc.qpcr(
   fixed="condition",
   random="sample",
@@ -140,7 +140,7 @@ HPDplot(
 )
 
 S1=HPDsummary(model=mm,data=dd)
-#png('Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/results/HPDsummary.png')
+#png('Z:/NSB_2016/IntegrativeNeuroscience/qPCR-STG/results/HPDsummary.png')
 #plot(HPDsummary(model=mm,data=dd))
 #dev.off()
 
