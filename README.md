@@ -13,4 +13,6 @@ The whole reason I put this up on github is because I've perfected the data impo
 - `/data_xls` This is the directory with all the data exported from the machine. I know, why am I importing .xlxs files? Because that's what the machine spits out. :(
 - `/sample_info` This is the directory with the sample info. I could have put this with the qpcr export files, but it seemed like a good idea to keep them separate
 
- 
+## Output
+Here's a pretty plot from the data
+![Plot](results/HPDsummary.png) 
