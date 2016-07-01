@@ -10,7 +10,7 @@ A major goal of this research-driven educational course is to equip students wit
 The 'ReproducibleExample' directory does just that. It takes raw data from a qPCR machine, reorganizes it for use with the MCMC.qpcr R package, and plots the data. 
 
 Here's a pretty plot from the reproducible workflow.
-![Plot](results/HPDsummary.png) 
+![Plot](ReproducibleExample/results/HPDsummary.png) 
 
 # Studnet Projects
 As I said, this is a discovery driven course. Four students will be conducting their own reserach, and that scripts, data, and results will be stored here as well. 
