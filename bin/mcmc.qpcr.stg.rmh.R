@@ -6,7 +6,7 @@
 
 ##script stored in "Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/bin"
 ## set path to data dir
-setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data_xls")
+setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data")
 
 
 ## The process:
@@ -35,10 +35,10 @@ library(reshape2)
 ## 1. Loop over all experimental prjoect files and create one big "rawdata" dataframe
 ## uses read.xlsx function to read 1 sheet, sharting at row 8, only first 20 columns, nothing imported as a factor
 
+file_list <- list.files(pattern = ".xls") #creates a string will all the .xls in a diretory for us to loop through
 
-file_list <- list.files() #creates a string will all the files in a diretory for us to loop through
-
-rm(rawdata) # first removed any dataframe called rawdata
+rm(rawdata) # first removed any dataframe called rawdata, if any
+rm(temp_dataset) # first removed any dataframe called rawdata, if any
 
 for (file in file_list){
   
@@ -91,7 +91,7 @@ counts <- cleandata %>%
   dcast(Well + sample ~ gene )
 
 ## 6. Join count and sample info, sort by sample, order in logical fashion
-samples <- read.csv("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/sample_info/sample_info_2015.csv", header=TRUE, sep="," )
+samples <- read.csv("sample_info_2015.csv", header=TRUE, sep="," )
 
 data <- inner_join(counts, samples) %>%
   arrange(sample) %>%
