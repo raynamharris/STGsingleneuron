@@ -12,10 +12,14 @@ setwd("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/data_xls")
 ## The process:
 ## 1. Loop over all experimental prjoect files and create one big "rawdata" dataframe
 ## 2. Clean the data to make numbers numbers and rename important columns
-## 3. Wrangle standard curve data with dplyr and plyr package into a dataframe called dilutions
+## 3. Create dilutions dataframe with quantiry, target name, and ct.
 ## 4. Calculate primer efficiences with MCMC.qpcr PrimEFF function
-## 5. Wrangle sample info a with dplyr packag
-## 6. Analyze data with MCMC.qpcr package
+## 5. create counts dataframe 
+## 6. Join count and sample info, sort by sample, order in logical fashion
+## 7. Turn cq into counts
+## 8. Mixed model
+## 9. Mixed model with diagnostic plots
+## 10. Plot the data!!
 
 #install.packages("xlsx", dependencies = TRUE) #note, must have Java installed on computer
 #install.packages("plyr")
@@ -67,33 +71,33 @@ cleandata$cq <- as.numeric(cleandata$cq, na.rm = TRUE)
 cleandata$gene <- as.factor(cleandata$gene)
 str(cleandata)
 
-## 2. Create dilutions dataframe with quantiry, target name, and ct. 
-##    Then rename for MCMC.qpcr
+## 3. Create dilutions dataframe with quantiry, target name, and ct. 
+
 dilutions <- cleandata %>%
   filter(Task == "STANDARD") %>%
   select(dna, cq, gene) 
 str(dilutions)
 
 
-## 3. Calculate primer efficiences with MCMC.qpcr PrimEFF function
+## 4. Calculate primer efficiences with MCMC.qpcr PrimEFF function
 PrimEff(dilutions) # makes a plot with the primer efficiencies
 amp.eff <- PrimEff(dilutions) #creates a table with the primer efficiencies
 
 
-## 4. create counts dataframe 
+## 5. create counts dataframe 
 counts <- cleandata %>%
   filter(Task == "UNKNOWN") %>%
   select(Well, sample, gene,  cq) %>%
   dcast(Well + sample ~ gene )
 
-## 5. Join count and sample info, sort by sample, order in logical fashion
+## 6. Join count and sample info, sort by sample, order in logical fashion
 samples <- read.csv("Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/sample_info/sample_info_2015.csv", header=TRUE, sep="," )
 
 data <- inner_join(counts, samples) %>%
   arrange(sample) %>%
   select(sample, condition, CbNaV, IH, inx1, inx2)
 
-## 6. Turn cq into counts
+## 7. Turn cq into counts
 
 dd=cq2counts(
   data=data,
@@ -104,7 +108,7 @@ dd=cq2counts(
 )
 head(dd)
 
-## 7. Mixed model
+## 8. Mixed model
 mm=mcmc.qpcr(
   fixed="condition",
   random="sample",
@@ -112,7 +116,7 @@ mm=mcmc.qpcr(
 )
 summary(mm)
 
-## 8. Mixed model with diagnostic plots
+## 9. Mixed model with diagnostic plots
 mmd=mcmc.qpcr(
   fixed="condition",
   random="sample",
@@ -127,7 +131,7 @@ diagnostic.mcmc(
   cex=0.8
 )
 
-## 9. Plot the data!!
+## 10. Plot the data!!
 
 HPDplot(
   model=mm,
