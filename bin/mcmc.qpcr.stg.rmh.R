@@ -135,9 +135,13 @@ diagnostic.mcmc(
 
 HPDplot(
   model=mm,
-  factors="conditionstg",
-  main="STG vs Muscle"
+  factors="conditionzymo",
+  main="Maxwell vs Zymo"
 )
 
-s1=HPDsummary(model=mm,data=dd)
+S1=HPDsummary(model=mm,data=dd)
+png('Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/results/HPDsummary.png')
+plot(HPDsummary(model=mm,data=dd))
+dev.off()
+
 s0=HPDsummary(model=mm,data=dd,relative=TRUE)
