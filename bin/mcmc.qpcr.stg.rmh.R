@@ -130,7 +130,7 @@ diagnostic.mcmc(
   col="grey50",
   cex=0.8
 )
-
+dev.off()
 ## 10. Plot the data!!
 
 HPDplot(
@@ -140,8 +140,8 @@ HPDplot(
 )
 
 S1=HPDsummary(model=mm,data=dd)
-png('Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/results/HPDsummary.png')
-plot(HPDsummary(model=mm,data=dd))
-dev.off()
+#png('Z:/NSB_2016/IntegrativeNeuroscience/STGsingleneuron2015/results/HPDsummary.png')
+#plot(HPDsummary(model=mm,data=dd))
+#dev.off()
 
-s0=HPDsummary(model=mm,data=dd,relative=TRUE)
+#s0=HPDsummary(model=mm,data=dd,relative=TRUE)
