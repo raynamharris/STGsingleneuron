@@ -33,7 +33,7 @@ library(reshape2)
 
 ## 1. read raw data with a nice forloop, only 1 sheet, start row 42, only first 26 columsn, everything as character
 
-file_list <- list.files() #creates a string will all the files in a diretory for us to loop through
+file_list <- list.files(pattern = "edited.xls") #creates a string will all the files in a diretory for us to loop through
 
 rm(rawdata) # first removed any dataframe called rawdata
 
